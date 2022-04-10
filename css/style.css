@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(57, 169, 219);
+    font-family: Rubik, Arial;
+  }
+  
+  form {
+ 
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 80%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+ 
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+  }
+    
+  #burger {
+    max-height: 30%;
+  }
+  
+
+
+  #overlay {
+    width: 100%;
+    margin: 3% auto;
+    height: 160vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .toppings label, .cheesy label {
+    margin-right: 25px;
+  }
+  
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tophead {
+    display: grid;
+    grid-template-columns: 1440px;
+    float: left;
+    text-align: left;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 11vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  }
+
+  #menuhead {
+    display: grid;
+    grid-template-columns: 1440px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  }
+
+  #dealshead {
+    display: grid;
+    grid-template-columns: 1440px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  }
+
+  #deals {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+    border: 1mm;
+  }
+
+  #bloghead {
+    display: grid;
+    grid-template-columns: 1440px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  }
+
+  #blog {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+    border: 1mm;
+  }
+
+  
+  #abouthead {
+    display: grid;
+    grid-template-columns: 1440px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  }
+
+
+  #aboutus {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+    text-align: center;
+    gap: 10px;  
+    width: 100%;
+    margin: 3% auto;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    align-content: center;
+  } 
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    left: 40%;
+    position: absolute;
+    background-color: #2092c3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
