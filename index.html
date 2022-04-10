@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Generation Flight</title>
+  </head>
+  <body>
+    <section id="tophead">
+        <img src="images/logo.png" alt="Generation Flight" id="logo"  align="left"  >
+    </section>
+    <section id="menuhead">
+        <div class="navbar">
+            <a class="active" href="#">Home</a>
+            <a href="#dealshead">Deals</a>
+            <a href="#bloghead">Blog</a>
+            <a href="#aboutus">About Us</a>
+        </div>
+    </section>
+    <section id="overlay">
+        <form action="submission.html" method="GET">
+            <h1>Booking Details</h1>
+            <table class="center">
+                <tr>
+                    <td>
+                        <section class="journey_type">
+                            
+                            <input type="radio" name="journey_type" id="one way" value="yes">
+                            <label for="one way">One Way</label>
+                            <input type="radio" name="journey_type" id="retun" value="yes">
+                            <label for="return">Return</label>
+                        </section>
+                    </td>
+                    
+                </tr>
+            </table>
+
+            <table class="center">
+                <tr>
+                <td>
+                    <section class="from_to">
+                        <label for="departure">Departure</label>
+                            <input type="text" name="departure" id="departure">
+                    </section>
+                </td>    
+                <td> 
+                    <section class="from_to">
+                        <label for="arrival">Arrival</label>
+                            <input type="text" name="arrival" id="arrival">
+                
+                    </section>
+                </td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <table class="center">
+                <tr>
+                    <td>
+                        <section class="journey_date">
+                            <label for="fromdate">From Date</label>
+                                <input type="date" name="fromdate" id="fromdate">
+                        </section>
+                    </td>    
+                    <td> 
+                        <section class="journey_date>
+                            <label for="todate">To Date</label>
+                                <input type="date" name="todate" id="todate">
+                    
+                        </section>
+                    </td>
+                </tr>
+            </table>
+            
+            <hr>
+
+
+            <hr>
+            <h3>Passenger Details</h3>
+            <hr>
+            <section class="passenger_details">
+                <table class="center" border="1">
+                    <th> Passenger 1</th>
+                    <th> Passenger 2</th>
+                    <th> Passenger 3</th>                
+                    <tr>
+                        <td>
+                            <section class="passenger1">
+                                <section class="passenger1_fname">    
+                                    <label for="passenger1_fname">First Name</label>
+                                    <input type="text" name="passenger1_fname" id="passenger1_fname">
+                                </section>
+                                <section class="passenger1_lname">    
+                                    <label for="passenger1_lname">Last Name</label>
+                                    <input type="text" name="passenger1_lname" id="passenger1_lname">
+                                </section>
+                                <section class="passenger1_age">    
+                                    <label for="passenger1_age">Age</label>
+                                    <input type="text" name="passenger1_age" id="passenger1_age" pattern="[0-9]">
+                                </section>
+                                <section class="passenger1_gender">    
+                                    <label for="passenger1_gender">Gender</label>
+                                    <select name="passenger1_gender" id="passenger1_gender">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </section>
+                                <section class="passenger1_email">    
+                                    <label for="passenger1_email">E-Mail</label>
+                                    <input type="text" name="passenger1_email" id="passenger1_email">
+                                </section>
+
+                                <section class="passenger1_mobile">    
+                                    <label for="passenger1_mobile">Mobile</label>
+                                    <input type="text" name="passenger1_mobile" id="passenger1_mobile">
+                                </section>
+
+                                <section class="passenger1_address">    
+                                    <label for="passenger1_address">Address</label>
+                                    <textarea id="passenger1_address" name="passenger1_address" rows="3" cols="40"></textarea>
+                                </section>                            
+                                <hr>
+                                <section class="passenger1_foodtype">
+                                    <label for="passenger1_foodtype">Meal</label>   
+                                    <select name="passenger1_foodtype" id="passenger1_foodtype">
+                                        <option value="vegan">Vegan</option>
+                                        <option value="continental">Continental</option>
+                                        <option value="non-veg-meal">Non Vegetarian Meal </option>
+                                    </select>
+                                </section>
+                            </section>    
+                        </td>                    
+                
+                        <td>
+                            <section class="passenger2">
+                                <section class="passenger2_fname">    
+                                    <label for="passenger2_fname">First Name</label>
+                                    <input type="text" name="passenger2_fname" id="passenger2_fname">
+                                </section>
+                                <section class="passenger2_lname">    
+                                    <label for="passenger2_lname">Last Name</label>
+                                    <input type="text" name="passenger2_lname" id="passenger2_lname">
+                                </section>
+                                <section class="passenger2_age">    
+                                    <label for="passenger2_age">Age</label>
+                                    <input type="text" name="passenger2_age" id="passenger2_age" pattern="[0-9]">
+                                </section>
+                                <section class="passenger2_gender">    
+                                    <label for="passenger2_gender">Gender</label>
+                                    <select name="passenger2_gender" id="passenger2_gender">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </section>
+                                <section class="passenger2_email">    
+                                    <label for="passenger2_email">E-Mail</label>
+                                    <input type="text" name="passenger2_email" id="passenger2_email">
+                                </section>
+
+                                <section class="passenger2_mobile">    
+                                    <label for="passenger2_mobile">Mobile</label>
+                                    <input type="text" name="passenger2_mobile" id="passenger2_mobile">
+                                </section>
+
+                                <section class="passenger2_address">    
+                                    <label for="passenger2_address">Address</label>
+                                    <textarea id="passenger2_address" name="passenger2_address" rows="3" cols="40"></textarea>
+                                </section>                        
+
+                                <hr>
+                                <section class="passenger2_foodtype">
+                                    <label for="passenger2_foodtype">Meal</label>   
+                                    <select name="passenger2_foodtype" id="passenger2_foodtype">
+                                        <option value="vegan">Vegan</option>
+                                        <option value="continental">Continental</option>
+                                        <option value="non-veg-meal">Non Vegetarian Meal </option>
+                                    </select>
+                                </section>
+
+                            </section>    
+                        </td>    
+                    
+                        <td>
+                            <section class="passenger3">
+                                <section class="passenger3_fname">    
+                                    <label for="passenger3_fname">First Name</label>
+                                    <input type="text" name="passenger3_fname" id="passenger3_fname">
+                                </section>
+                                <section class="passenger3_lname">    
+                                    <label for="passenger3_lname">Last Name</label>
+                                    <input type="text" name="passenger3_lname" id="passenger3_lname">
+                                </section>
+                                <section class="passenger3_age">    
+                                    <label for="passenger3_age">Age</label>
+                                    <input type="text" name="passenger3_age" id="passenger3_age" pattern="[0-9]">
+                                </section>
+                                <section class="passenger3_gender">    
+                                    <label for="passenger3_gender">Gender</label>
+                                    <select name="passenger3_gender" id="passenger3_gender">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </section>
+                                <section class="passenger3_email">    
+                                    <label for="passenger3_email">E-Mail</label>
+                                    <input type="text" name="passenger3_email" id="passenger3_email">
+                                </section>
+
+                                <section class="passenger3_mobile">    
+                                    <label for="passenger3_mobile">Mobile</label>
+                                    <input type="text" name="passenger3_mobile" id="passenger3_mobile">
+                                </section>
+                                <section class="passenger3_address">    
+                                    <label for="passenger3_address">Address</label>
+                                    <textarea id="passenger3_address" name="passenger3_address" rows="3" cols="40"></textarea>
+                                </section>
+
+                                <hr>
+                                <section class="passenger3_foodtype">
+                                    <label for="passenger3_foodtype">Meal</label>   
+                                    <select name="passenger3_foodtype" id="passenger3_foodtype">
+                                        <option value="vegan">Vegan</option>
+                                        <option value="continental">Continental</option>
+                                        <option value="non-veg-meal">Non Vegetarian Meal </option>
+                                    </select>
+                                </section>
+                            </section>    
+                        </td>    
+                </tr>
+                </table>
+            </section>    
+            <hr>
+            <section class="submission">
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+    </section>
+    <section id="dealshead">
+        <h1><strong>Deals</strong></h1>  
+    </section>
+    <section id="deals">
+        
+        <div>
+                <i class="fa fa-credit-card fa-4x"></i>
+                <p><strong>10 % OFF</strong></p>
+                <p>Use code <strong>10OFF</strong> to get 10% off on your flight booking. Offer redeemable only once upto a maximium of $20.</p>
+            </div>
+            <div>
+                <i class="fa fa-amazon fa-4x"  ></i>
+                <p><strong>Amazon</strong></p>
+                <p>Use code <strong>GFAMZN</strong> to get $10 off on any purchases above $59 from Amazon.com.au. </p>
+            </div>
+            <div>
+                <i class="fa fa-plane fa-4x"  ></i>    
+                <p><strong>International</strong></p>
+                <p>Use code <strong>FLYINT</strong> and get $100 off on your international flight booking for all bookings above $900 when you make your payment through PayPal</p>
+            </div>
+            <div>
+                <i class="fa fa-user  fa-4x"></i>
+                <p><strong>Child Travel Free</strong></p>
+                <p>Use code <strong>CHILDFREE</strong> to free ticket for your child for all international flights for all bookings above $1500.</p>
+        </div>  
+    </section>
+    <section id="bloghead">
+        <h1><strong>Blog</strong></h1>  
+    </section>
+    <section id="blog">
+        <div>
+            <i class="fa fa-university fa-4x"></i>
+            <p><a href="https://www.forbes.com/sites/jamesasquith/2019/08/22/how-to-fly-in-first-class-for-the-same-price-as-economymistake-airfares-and-cheap-flights">How To Fly In First Class For The Same Price As Economy—‘Mistake’ Airfares And Cheap Flights </a></p>
+            <p>Understandably, that is a fantastic perk to save up for, especially considering those seats cost thousands of dollars, but it is also not realistic to achieve on a regular basis. </p>
+        </div>
+        <div>
+            <i class="fa fa-bar-chart fa-4x"  ></i>
+            <p>People opting to </p>
+            <p>Use code <strong>GFAMZN</strong> to get $10 off on any purchases above $59 from Amazon.com.au. </p>
+        </div>
+        <div>
+            <i class="fa fa-ban fa-4x" aria-hidden="true"></i>
+            <p><a href="https://www.greenpeace.org/eu-unit/issues/climate-energy/45901/research-shows-one-third-of-europes-busiest-flights-have-train-alternatives-under-six-hours/">Greenpeace calls on EU to ban short-haul flights and make train alternatives accessible to all.</a> </p>
+            <p>One third of the busiest short-haul flights in Europe have train alternatives under six hours, whereas many trips could be made easier by train, according to research by OBC Transeuropa (OBCT) commissioned by Greenpeace EU.</p>
+        </div>
+        <div>
+            <i class="fa fa-stop-circle  fa-4x" aria-hidden="true"></i>
+            <p><strong>Child Travel Free</strong></p>
+            <p>Use code <strong>CHILDFREE</strong> to free ticket for your child for all international flights for all bookings above $1500.</p>
+        </div>  
+    </section>
+    <section id="abouthead">
+        <h1><strong>About Us</strong></h1>  
+    </section>
+
+    <section id="aboutus">
+        <div>
+            <i class="fa fa-university fa-5x"></i>
+            <p>Eepsita Das</p>
+            <p>Programmer</p>
+        </div>
+        <div>
+            <i class="fa fa-bar-chart fa-4x"  ></i>
+            <p>Javier Ramos</p>
+            <p>Programmer</p>
+        </div>
+        <div>
+            <i class="fa fa-cubes fa-4x" aria-hidden="true"></i>
+            <p>Sreejith Sasi</p>
+            <p>Developer</p>
+        </div>
+        <div>
+            <i class="fa fa-stop-circle  fa-4x" aria-hidden="true"></i>
+            <p>Sumathi Ayyappan</p>
+            <p>Project Coordinator</p>
+        </div>  
+    </section>
+
+
+</body>
+</html>
